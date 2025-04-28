@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pricing | Rhythm Dance Studio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #cc0066;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .pricing-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2em;
+    }
+
+    .plan {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 2em;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .plan:hover {
+      transform: translateY(-5px);
+    }
+
+    .plan h3 {
+      color: #cc0066;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #444;
+      margin: 10px 0;
+    }
+
+    .plan ul {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      margin-top: 1em;
+    }
+
+    .plan ul li {
+      margin-bottom: 8px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #cc0066;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background-color: #a50050;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Our Pricing Plans</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="instructors.html">Instructors</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Choose Your Plan</h2>
+
+    <div class="pricing-container">
+
+      <div class="plan">
+        <h3>Basic Plan</h3>
+        <div class="price">₹999/month</div>
+        <ul>
+          <li>Access to 3 classes/week</li>
+          <li>Beginner & Kids batches</li>
+          <li>1 Trial Session</li>
+        </ul>
+        <a href="#" class="btn">Enroll Now</a>
+      </div>
+
+      <div class="plan">
+        <h3>Standard Plan</h3>
+        <div class="price">₹1499/month</div>
+        <ul>
+          <li>Access to 5 classes/week</li>
+          <li>All style classes</li>
+          <li>Free Workshop Entry</li>
+        </ul>
+        <a href="#" class="btn">Enroll Now</a>
+      </div>
+
+      <div class="plan">
+        <h3>Premium Plan</h3>
+        <div class="price">₹1999/month</div>
+        <ul>
+          <li>Unlimited Classes</li>
+          <li>One-on-One Coaching</li>
+          <li>Performance Training</li>
+          <li>Free Events Pass</li>
+        </ul>
+        <a href="#" class="btn">Enroll Now</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Rhythm Dance Studio | All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

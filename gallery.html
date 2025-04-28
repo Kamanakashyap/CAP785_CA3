@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery | Rhythm Dance Studio</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffdfd;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2em;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #cc0066;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gallery</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="instructors.html">Instructors</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Dance Moments Captured</h2>
+    <div class="gallery">
+      <img src="dance.jpg" alt="Dance class">
+      <img src="group.jpg" alt="Group performance">
+      <img src="freeStyle.jpg" alt="Freestyle session">
+      <img src="Instructor.jpg" alt="Instructor demo">
+      <img src="KidsBAtch.jpg" alt="Kids batch">
+      <img src="SalsaNight.jpg" alt="Salsa night">
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Rhythm Dance Studio | All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

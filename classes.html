@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Classes | Rhythm Dance Studio</title>
+  <link rel="manifest" href="manifest.json">i
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #cc0066;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .class-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2em;
+    }
+
+    .class-card {
+      border: 1px solid #ddd;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background-color: #fff;
+    }
+
+    .class-card h3 {
+      color: #cc0066;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Our Dance Classes</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="instructors.html">Instructors</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Explore Our Dance Styles</h2>
+    <div class="class-list">
+      <div class="class-card">
+        <h3>Hip Hop</h3>
+        <p>Energetic and freestyle street-style dance for all levels. Get groovy and build confidence!</p>
+      </div>
+      <div class="class-card">
+        <h3>Ballet</h3>
+        <p>Graceful and technical classical dance for poise, flexibility, and discipline.</p>
+      </div>
+      <div class="class-card">
+        <h3>Bollywood</h3>
+        <p>Fun and vibrant dance moves inspired by Indian cinema. Great for all ages!</p>
+      </div>
+      <div class="class-card">
+        <h3>Contemporary</h3>
+        <p>Expressive dance that blends modern, jazz, and lyrical elements for storytelling.</p>
+      </div>
+      <div class="class-card">
+        <h3>Salsa</h3>
+        <p>Latin rhythm and partner movements that bring joy, energy, and coordination.</p>
+      </div>
+      <div class="class-card">
+        <h3>Kids Dance</h3>
+        <p>Specially designed fun classes to introduce dance and rhythm to young children.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Rhythm Dance Studio | All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
