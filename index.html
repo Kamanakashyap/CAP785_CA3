@@ -6,9 +6,9 @@
   <meta name="description" content="Join Rhythm Dance Studio – fun and energetic dance classes for all ages and skill levels in Mumbai.">
   <title>Rhythm Dance Studio | Home</title>
   <link rel="icon" href="rythem.png" type="image/png">
-  <link rel="stylesheet" href="style.min.css" />
+  <link rel="preload" href="style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="style.min.css"></noscript>  
   <link rel="manifest" href="manifest.json">
-
   <style>
     * {
       margin: 0;
@@ -126,6 +126,6 @@
   <footer>
     <p>&copy; 2025 Rhythm Dance Studio. All rights reserved.</p>
   </footer>
-  <script src="script.js"></script>
+  <script src="/script.js" defer></script>
 </body>
 </html>
